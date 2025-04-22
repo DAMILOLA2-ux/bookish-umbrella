@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content ="width=device-width" initial-scale="1.0"/>
+    
+    <meta name="description" content="final project">
+    <title>project</title>
+    <Link rel="stylesheet" href="style.css">
+      <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+</head>
+<body>
+    <!-------------- header --------------->
+    <header class="header">
+        <a href="#"><img src="logo.png" alt="logo">
+          </a>
+          <div class="navmenu" id="navmenu">
+              <!-- JavaScript onclick -->
+        <i class="bx bx-window-close" onclick="closeMenu()"></i>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">services</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact.html">contact</a></li>
+           </ul>
+             
+          </div>
+           <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+    <!------------sub header------------>
+    <section class="sub-header" id="sub-header">
+        <h1><span>My </span>Services</h1>
+    </section>
+    
+   <!---------service section ------------->
+   <section class="services" id="service">
+       <div class="text-title">
+         <h2><span>What</span> i do</h2>
+       </div>
+       <div class="services-content">
+           <div class="box">
+             <div class="icons">
+             <i class="bx bx-box"></i> 
+               </div>
+            <h3>Business Flyer</h3>
+            <p>Business flyer design for brand owner to reach their targeted audience.</p>
+            <a href="#" class="btn">Read More</a>
+           </div>
+           
+             <div class="box">
+             <div class="icons">
+             <i class="bx bx-envelope-open"></i> 
+               </div>
+            <h3>Event Invite Design</h3>
+            <p>Event design for your ceremony, meetings.. ..
+            .</p>
+            <a href="#" class="btn">Read More</a>
+           </div>
+           
+           <div class="box">
+             <div class="icons">
+             <i class="bx bx-mobile"></i> 
+               </div>
+            <h3>Social Media Flyer</h3>
+            <p>Design on different social media flyers.</p>
+            <a href="#" class="btn">Read More</a>
+           </div>
+       </div>
+   
+   
+   <!-------service section -- ------>
+   
+   <!-------portfolio section  -------->
+   
+   <!------------contact section---------->
+   
+   </section>
+   <!------------ footer ---------->
+   <footer class="footer">
+       <div class="attribution">
+         <p>Design with<i class="bx bx-heart"></i> by Ameenah</p>
+           </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a> 
+        </div>
+   </footer>
+   <!-- js for toggle menu-->
+   <script>
+       var navMenu = document.getElementById("navmenu");
+       
+       function openMenu() {
+           navMenu.style.right= "O";
+       }
+       
+       function closeMenu() {
+           navMenu.style.right= "-200px";
+       }
+   </script>
+</body>
+</html>

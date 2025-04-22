@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content ="width=device-width" initial-scale="1.0"/>
+    
+    <meta name="description" content="final project">
+    <title>project</title>
+    <Link rel="stylesheet" href="style.css">
+      <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+</head>
+<body>
+    <!-------------- header --------------->
+    <header class="header">
+        <a href="#"><img src="logo.png" alt="logo">
+          </a>
+          <div class="navmenu" id="navmenu">
+              <!-- JavaScript onclick -->
+        <i class="bx bx-window-close" onclick="closeMenu()"></i>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">services</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact.html">contact</a></li>
+           </ul>
+             
+          </div>
+           <i class="bx bx-menu" onclick="openMenu()"></i>
+     </header>
+    
+    <!------------sub header------------>
+    <section class="sub-header" id="sub-header">
+            <h1>Contact<span>Me</span></h1>
+    </section>
+    
+   <!---------contact section ------------->
+   <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8627.420168926905!2d4.074430684367438!3d7.4994720106212105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039c1bdace576bf%3A0xa9f483c3f9acd48c!2sPolice%20Station%2C%20Iyana%20Offa!5e0!3m2!1sen!2sng!4v1744709627133!5m2!1sen!2sng" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+      </div>
+   </section>
+   
+   <section class="contact" id="contact">
+       
+       <h4 class="dot">What ever your project design may be....</h4>
+       <p>I'm a well skilled graphic Designer, let talk about your project let see how we can help you.</p>
+       <div class="list">
+       <li><a href="#">08061582883</a> </li>
+       <li><a href="#">aminatdamilola21@gmail.com</a> </li>
+       <li><a href="#">like, share, & subscribe</a> </li>
+       </div>
+       
+       <div class="icons">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+       </div>
+       <div class="contact-form">
+           <form action="">
+           <input type="name" placeholder="your name" required>
+           <input type="email" placeholder="your email" required>
+           <input type="number" placeholder="your mobile number" required>
+          <textarea rows="10" cols="20" name ="" id="" placeholder="how can i help you" requied></textarea>
+           <input type="submit" value="send-message" class="submit">
+           </form>
+       </div>
+   </section>
+   
+   
+   <!-------service section -- ------>
+   
+   <!-------portfolio section  -------->
+   
+   <!------------contact section---------->
+   
+   </section>
+   <!------------ footer ---------->
+   <footer class="footer">
+       <div class="attribution">
+         <p>Design with<i class="bx bx-heart"></i> by Ameenah</p>
+           </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a> 
+        </div>
+   </footer>
+   <!-- js for toggle menu-->
+   <script>
+       var navMenu = document.getElementById("navmenu");
+       
+       function openMenu() {
+           navMenu.style.right= "O";
+       }
+       
+       function closeMenu() {
+           navMenu.style.right= "-200px";
+       }
+   </script>
+</body>
+</html>
